@@ -1,5 +1,7 @@
 @import 'navbar.scss';
 @import 'hero.scss';
+@import 'site-content.scss';
+@import 'text-content.scss';
 
 
 * {
@@ -10,4 +12,8 @@
 .site-content {
     max-width: 1024px;
     margin: auto;
+}
+
+ul {
+    list-style-position: inside;
 }

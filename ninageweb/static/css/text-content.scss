@@ -1,0 +1,10 @@
+@import 'mixins.scss';
+
+
+.text-content {
+    @include font-default();
+
+    p {
+        margin-top: 0.5rem;
+    }
+}

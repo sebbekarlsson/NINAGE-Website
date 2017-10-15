@@ -1,0 +1,14 @@
+@import 'mixins.scss';
+
+
+.site-section {
+    box-sizing: border-box;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    @media screen and (max-width: 1024px) {
+        box-sizing: border-box;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
