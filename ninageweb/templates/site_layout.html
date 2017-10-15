@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+
+
+{% block body %}
+    <div class='site-content'>
+        <nav class='navbar'>
+            <section>
+                <a href='/'>NINAGE</a>
+            </section>
+            <section>
+                <a href='https://github.com/sebbekarlsson/NINAGE-Engine'>Github</a>
+            </section>
+        </nav>
+        {% block site_content %}
+        {% endblock %}
+    </div>
+{% endblock %}
